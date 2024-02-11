@@ -10,9 +10,6 @@ a{
 button{
     cursor: pointer;
 }
-img{
-    display: block;
-}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -49,7 +46,7 @@ body{
 }
 .contacts:hover,
 .contacts:focus{
-color: #404bbf;
+   color: #404bbf;
 
 }
 .contacts{
@@ -79,6 +76,7 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     color: #ffffff;
     background: #4d5ae5;
+    letter-spacing: 0.04em;
 }
 .btn:hover,
 .btn:focus{
@@ -96,6 +94,7 @@ letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
         letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 .benefits-list-title{
         font-weight: 500;
@@ -114,11 +113,7 @@ letter-spacing: 0.02em;
 
 /* ============== Team Section styles ==============*/
 .team-section{
-    background-color: #F4F4FD;
-}
-.section-title{
-   color: #2e2f42;
-   letter-spacing: 0.02em;
+    background: #f4f4fd;
 }
 .team-list-item{
     background-color: #FFFFFF;
@@ -148,6 +143,7 @@ letter-spacing: 0.02em;
         font-size: 20px;
         line-height: 1.2;
        color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 .project-direction{
         font-size: 16px;

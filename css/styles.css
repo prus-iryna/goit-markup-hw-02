@@ -38,6 +38,7 @@ body{
         font-size: 16px;
         line-height: 1.5;
         color: #2e2f42;
+        letter-spacing: 0.02em;
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
@@ -54,6 +55,7 @@ color: #404bbf;
 .contacts{
    color: #434455;
    line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 /* ==============/Page Header styles ==============*/
@@ -101,11 +103,14 @@ color: #404bbf;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 .benefits-list-text{
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
+        letter-spacing: 0.02em;
 }
 /* ============== /Benefits Section styles ==============*/
 
@@ -122,6 +127,7 @@ color: #404bbf;
         line-height: 1.2;
         text-align: center;
         letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 .team-person-position{
         font-size: 16px;
@@ -138,6 +144,7 @@ color: #404bbf;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+       color: #2e2f42;
 }
 .project-direction{
         font-size: 16px;
@@ -153,10 +160,13 @@ background: #2e2f42;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+}
+.logo-footer-text{
+    color: #f4f4fd;
 }
 .page-footer-text{
     color: #f4f4fd;
@@ -165,6 +175,7 @@ background: #2e2f42;
         font-size: 16px;
         line-height: 1.5;
         color: #f4f4fd;
+        letter-spacing: 0.02em;
 }
 
 /* ==============/Page Footer styles ==============*/

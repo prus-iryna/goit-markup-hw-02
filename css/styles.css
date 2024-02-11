@@ -15,6 +15,7 @@ img{
 }
 body{
     font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     background: #fff;
 }
@@ -36,20 +37,103 @@ body{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
         color: #2e2f42;
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
     color: #404bbf;
 }
-.contacts:hover{
+.contacts:hover,
+.contacts:focus{
 color: #404bbf;
 }
 
 /* ==============/Page Header styles ==============*/
 
 /* ============== Hero Section styles ==============*/
-
+.hero{
+    background: #2e2f42;
+}
+.main-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        color: #fff;
+}
+.btn{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+}
 
 /* ============== /Hero Section styles ==============*/
+
+/* ============== Benefits Section styles ==============*/
+.section-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-transform: capitalize;
+        text-align: center;
+}
+.benefits-list-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+}
+.benefits-list-text{
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+}
+/* ============== /Benefits Section styles ==============*/
+
+/* ============== Team Section styles ==============*/
+.team-person-fullname{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+}
+.team-person-position{
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #434455;
+}
+
+/* ==============/Team Section styles ==============*/
+
+/* ==============Portfolio styles ==============*/
+.project-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+}
+.project-direction{
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+}
+/* ==============/Portfolio styles ==============*/
+/* ============== Page Footer styles ==============*/
+.page-footer{
+background: #2e2f42;
+}
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+.page-footer-text{
+        font-size: 16px;
+        line-height: 1.5;
+        color: #f4f4fd;
+}
+
+/* ==============/Page Footer styles ==============*/

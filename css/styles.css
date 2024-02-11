@@ -77,9 +77,7 @@ letter-spacing: 0.02em;
 .btn{
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #ffffff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 .btn:hover,
@@ -118,7 +116,11 @@ letter-spacing: 0.02em;
 .team-section{
     background-color: #F4F4FD;
 }
-.team-list{
+.section-title{
+   color: #2e2f42;
+   letter-spacing: 0.02em;
+}
+.team-list-item{
     background-color: #FFFFFF;
 }
 .team-person-fullname{
@@ -134,6 +136,7 @@ letter-spacing: 0.02em;
         line-height: 1.5;
         text-align: center;
         color: #434455;
+        letter-spacing: 0.02em;
 }
 
 /* ==============/Team Section styles ==============*/
@@ -150,6 +153,7 @@ letter-spacing: 0.02em;
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
+        letter-spacing: 0.02em;
 }
 /* ==============/Portfolio styles ==============*/
 /* ============== Page Footer styles ==============*/
